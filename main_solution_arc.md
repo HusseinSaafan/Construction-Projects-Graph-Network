@@ -1,4 +1,4 @@
-# Project Linking Using a Social Graph Network Approach
+# Project Linking Using a Graph Network Approach
 
 This document describes a phased solution for linking duplicate or related construction projects in a database.
 
