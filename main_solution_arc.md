@@ -1,6 +1,6 @@
-# Project Linking Using a Social Network Analysis Approach
+# Project Linking Using a Social Graph Network Approach
 
-This document describes a phased solution for linking duplicate or related construction projects a database.
+This document describes a phased solution for linking duplicate or related construction projects in a database.
 
 Because project records come from multiple sources, the same real-world construction project can appear as multiple entries. The goal is to reduce this noise and build a clearer, more complete project-level view.
 
