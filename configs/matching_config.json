@@ -1,0 +1,8 @@
+{
+  "text_weight": 0.8,
+  "date_weight": 0.2,
+  "new_construction": 0.35,
+  "maintenance_to_new": 0.6,
+  "renovation_maintenance": 0.45,
+  "maintenance_maintenance": 0.68
+}

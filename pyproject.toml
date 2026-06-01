@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sna-linking"
+version = "0.1.0"
+description = "Hybrid PoC for project linking with social network analysis."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=1.26.0",
+  "pandas>=2.2.0",
+  "pyarrow>=16.0.0",
+  "python-dotenv>=1.0.1",
+  "networkx>=3.3",
+  "scikit-learn>=1.5.0",
+  "databricks-sql-connector>=3.2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.2.0",
+  "ruff>=0.5.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
