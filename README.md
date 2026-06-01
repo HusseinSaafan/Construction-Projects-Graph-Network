@@ -1,4 +1,4 @@
-# SNA Project Linking Pipeline
+# Graph Network Project Linking Pipeline
 
 Public-safe Python pipeline for project linking using geographic communities and scope-aware sub-community matching.
 
